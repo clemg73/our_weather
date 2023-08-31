@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
-import 'package:ourweather/addSimplePointModal.dart';
-import 'package:ourweather/searchModal.dart';
+import 'package:ourweather/components/addSimplePointModal.dart';
+import 'package:ourweather/components/searchModal.dart';
 import 'package:location/location.dart' as loc;
 
 class MapboxScreen extends StatefulWidget {
