@@ -10,11 +10,11 @@
 		</data>
 		<key>flutter_assets/AssetManifest.bin</key>
 		<data>
-		ME0cAg6cl/bTZmwXEVgMugDccUI=
+		REr/Un3+YFGuxaYmEYZevjHttPU=
 		</data>
 		<key>flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		SWim1DsCjDRej8iQqfhV/bBSHh0=
 		</data>
 		<key>flutter_assets/FontManifest.json</key>
 		<data>
@@ -34,7 +34,23 @@
 		</data>
 		<key>flutter_assets/kernel_blob.bin</key>
 		<data>
-		yZWwGr06HjFBby7tyuTvLXhdEgc=
+		bSgs3zdTDOjCztmBJAEw4ElfX2A=
+		</data>
+		<key>flutter_assets/lib/assets/meteo1.png</key>
+		<data>
+		B/egsy3lelbU0rQUWRJ+TmukMN4=
+		</data>
+		<key>flutter_assets/lib/assets/meteo2.png</key>
+		<data>
+		1d1bxOSIEyXVWEW9wcmH50WrZj0=
+		</data>
+		<key>flutter_assets/lib/assets/meteo3.png</key>
+		<data>
+		DRtlPrCBqGWmrOrG5SRkYhIwDuA=
+		</data>
+		<key>flutter_assets/lib/assets/meteo4.png</key>
+		<data>
+		G53MOZ4ICF1K0KLcHnbTNJHrylI=
 		</data>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -55,14 +71,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AK9VrT1vIYmP534P8JLRoc2lLJQbaGDpko1FyK+MCV0=
+			z4Yb/ckps0SSl46XHLC7xst9w59OGX4hfnkvnPEj1pg=
 			</data>
 		</dict>
 		<key>flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			BDpdqEdCethRMl8i1tmGLPcRjA5dg3Npv5rsSBgxWtE=
 			</data>
 		</dict>
 		<key>flutter_assets/FontManifest.json</key>
@@ -97,7 +113,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x6TWWZ3HtsvcOZPFiX3t+wMy2d14GSLcr7VV/MwsjTw=
+			3WYE/BCaJUob+MmDimfcu9dBVB3vwMmakKrckZzJ0pU=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/assets/meteo1.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h5Nj1L+5QQxgsy6Z4kZOeteP0hRoMdhbJ0nAIO8hM00=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/assets/meteo2.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			G0EVvRDj3OcoeSjgunQIdbLqK3fwtGZ9ltjQ2iI/pKo=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/assets/meteo3.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Mjuy1WlJKFt+UeD0RsG2H+zDGuriEvrebcyaovVLaZs=
+			</data>
+		</dict>
+		<key>flutter_assets/lib/assets/meteo4.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Iy+10OsISdTmxhwgsSc79KlwGR9kKJEq3crh7p3+gv8=
 			</data>
 		</dict>
 		<key>flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>

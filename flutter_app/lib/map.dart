@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:mapbox_gl/mapbox_gl.dart';
-import 'package:ourweather/SearchModal.dart';
+import 'package:ourweather/addSimplePointModal.dart';
+import 'package:ourweather/searchModal.dart';
 import 'package:location/location.dart' as loc;
 
 class MapboxScreen extends StatefulWidget {
@@ -54,7 +55,7 @@ class _MapboxScreenState extends State<MapboxScreen> {
     ));
   }
 
-  Future<void> _showModal(BuildContext context) async {
+  Future<void> _showSearchModal(BuildContext context) async {
     final selectedPlace = await showModalBottomSheet(
       context: context,
       isScrollControlled:
@@ -63,8 +64,21 @@ class _MapboxScreenState extends State<MapboxScreen> {
         return const SearchModal();
       },
     );
-    _centerMapOnPlace(LatLng(selectedPlace.geometry!.coordinates![1],
-        selectedPlace.geometry!.coordinates![0]));
+    selectedPlace != null
+        ? _centerMapOnPlace(LatLng(selectedPlace.geometry!.coordinates![1],
+            selectedPlace.geometry!.coordinates![0]))
+        : null;
+  }
+
+  Future<void> _showAddModal(BuildContext context) async {
+    await showModalBottomSheet(
+      context: context,
+      isScrollControlled:
+          true, // Permet au contenu de dépasser la moitié de l'écran
+      builder: (BuildContext context) {
+        return const AddSimplePointModal();
+      },
+    );
   }
 
   @override
@@ -86,7 +100,14 @@ class _MapboxScreenState extends State<MapboxScreen> {
         children: [
           FloatingActionButton(
             onPressed: () {
-              _showModal(context);
+              _showAddModal(context);
+            },
+            child: const Icon(Icons.add),
+          ),
+          const SizedBox(height: 16),
+          FloatingActionButton(
+            onPressed: () {
+              _showSearchModal(context);
             },
             child: const Icon(Icons.search),
           ),
