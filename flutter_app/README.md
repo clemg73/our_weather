@@ -1,4 +1,4 @@
-# ourweather
+# planus
 
 A new Flutter project.
 

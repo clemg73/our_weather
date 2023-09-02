@@ -1,6 +1,6 @@
 {
-    "name": "ourweather",
-    "short_name": "ourweather",
+    "name": "planus",
+    "short_name": "planus",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
